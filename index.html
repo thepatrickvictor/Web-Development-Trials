@@ -1,33 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Javascript + DOM</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="cssfile.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Interactive rating component</title>
 </head>
 <body>
-	<h1>Shopping List</h1>
-	<p id="first">Get these done today</p>
-	<input id="userinput" type="text" placeholder="enter items">
-	<button id="enter">Add to list</button>
-	<ul id="first">
-		<div id="done1"><li  class="gotthis" random="23">Notebook <button class="delete">Delete</button></li></div>
-		<div id="done2"><li class="gotthis" >Bible <button class="delete2">Delete</button> </li></div>
-		<div  id="done3"><li class="gotthis" >Books <button class="delete3">Delete</button> </li></div>
-		<div id="done4"><li class="gotthis" >Javascript <button class="delete4">Delete</button> </li></div>
-		<div id="done5"><li class="gotthis" >Rice <button class="delete5">Delete</button> </li></div>
-		<div id="done6"><li class="gotthis" >Bread <button class="delete6">Delete</button> </li></div>
-	</ul>
-	<hr>
-	<h2>THE ASSIGNMENT</h2>
-	<p>Using the Shopping List files from the previous videos update the shopping list app to do the following:
 
-<p class="bold red green over">1. If you click on the list item, it toggles the .done  class on and off.</p>
-
-<p>2. Add buttons next to each list item to delete the item when clicked on its corresponding delete button.</p>
-
-<p>3. BONUS: When adding a new list item, it automatically adds the delete button next to it (hint: be sure to check if new items are clickable too!)
-</p>
-Good Luck!</p>
-	<script type="text/javascript" src="scripts.js"></script>
+  <!-- Rating state start -->
+  <div class="pagecontainer">
+      <div class="thestar">
+        <img src="./images/icon-star.svg" class="star" alt="Rate us star"/>
+      </div>
+      <div class="textbox">
+        <h3>How did we do?</h3>
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
+      </div>
+    
+    <div class="num">
+        <button class="numbers">1</button>
+        <button class="numbers">2</button>
+        <button class="numbers">3</button>
+        <button class="numbers">4</button>
+        <button class="numbers">5</button>
+    </div>
+    <div class="submit"><button class="btn"><a href="thankyoupage.html">SUBMIT</a></button></div>
+    
+  <!-- Rating state end -->
+  </div>
+  
+      <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Patrick Victor C.</a>.
+      </div>
 </body>
 </html>
