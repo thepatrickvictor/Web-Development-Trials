@@ -1,43 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="cssfile.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;0,600;0,700;1,400&display=swap" rel="stylesheet">
-  <title>Frontend Mentor | Interactive rating component</title>
-</head>
-<body>
-
-  <!-- Rating state start -->
-  <div class="pagecontainer">
-      <div class="thestar">
-        <img src="./images/icon-star.svg" class="star" alt="Rate us star"/>
-      </div>
-      <div class="textbox">
-        <h3>How did we do?</h3>
-    <p>Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!</p>
-      </div>
-    
-    <div class="num">
-        <button class="numbers">1</button>
-        <button class="numbers">2</button>
-        <button class="numbers">3</button>
-        <button class="numbers">4</button>
-        <button class="numbers">5</button>
-    </div>
-    <div class="submit"><button class="btn"><a href="thankyoupage.html">SUBMIT</a></button></div>
-    
-  <!-- Rating state end -->
-  </div>
-  
-      <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Patrick Victor C.</a>.
-      </div>
-</body>
+		<link rel="icon" type="images/png" sizes="32x32" href="flixialogo.png">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<title>Flixia: online streaming</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<a href="#"><img class="logo" src="logo.png"></a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Account</a></li>
+				<li><a href="#">Contact us</a></li>
+			</ul>
+		</nav>
+		<div class="text">
+				<h1>The world can hear you with <span class="nametag">FLIXIA</span></h1>
+			<div class="form">
+				<h3 class="signin">Sign in to start</h3>
+				<input class="input" type="text" name="email" placeholder="Enter email"><br>
+				<input class="input" type="text" name="password" placeholder="Enter password"><br>
+				<button>Sign in</button>
+			</div>
+		</div>
+		<footer>© Copyright 2022 Flixia Inc. All rights reserved.</footer>
+	</body>
 </html>
